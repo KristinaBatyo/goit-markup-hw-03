@@ -6,6 +6,10 @@
     --background-white-color: #FFFFFF;
     --backgroubd-color: #2F303A;
     --portfolio-background-buttom: #F5F4FA;
+    --margin-top-buttom: 94px;
+}
+* {
+    box-sizing: border-box;
 }
 p,
 h1,
@@ -38,6 +42,13 @@ body {
     list-style: none;
 }
 /* -------------- Logo -------------- */
+
+header {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ECECEC;
+}
+
 .logo {
 color: var(--accent-color); 
 
@@ -96,6 +107,10 @@ text-decoration: none;
 .hero.icon,
 .icon {
     background-color: var(--backgroubd-color);
+
+    padding-top: 200px;
+    padding-bottom: 197px;
+    text-align: center;
 }
 .button {
     color: var(--background-white-color);
@@ -107,6 +122,13 @@ text-decoration: none;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+
+    display: inline-block;
+    padding: 10px 32px;
+    min-width: 200px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 33px;
 }
 /* -------------- Section -------------- */
 .section .section-title {
@@ -117,12 +139,31 @@ text-decoration: none;
     text-align: center;
     letter-spacing: 0.03em;
 }
+
+
 .subtitle {
     color: var(--primary-text-color);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+
+    width: 270px;
 }
+
+.section.benefits {
+    padding-top: 94px;
+}
+
+.section.work {
+    text-align: center;
+    margin-top: var(--margin-top-buttom);
+    padding-bottom: var(--margin-top-buttom);
+}
+
+.photo-to-occupy {
+    margin-top: 50px;
+}
+
 /* -------------- Feature -------------- */
 .feature-list .title {
     color: var(--header-color);
@@ -133,6 +174,7 @@ text-decoration: none;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
 }
 .visually-hidden {
     position: absolute;
@@ -150,6 +192,10 @@ text-decoration: none;
 /* -------------- Occupation -------------- */
 
 /* -------------- Team -------------- */
+.our-photos {
+    margin-top: 50px;
+}
+
 .name {
     color: var(--header-color);
     font-weight: 500;
@@ -169,6 +215,10 @@ text-decoration: none;
 }
 .section.team {
     background-color: #F5F4FA;
+
+    text-align: center;
+    padding-top: 186px;
+    padding-bottom: var(--margin-top-buttom);
 }
 .text-link {
     text-decoration: none;
@@ -197,6 +247,13 @@ address {
 .contacts:hover,
 .contacts:focus{
     color: var(--accent-color);
+}
+
+.icon {
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 215px;
 }
 
 /* -------------- PORTFOLIO -------------- */
@@ -230,4 +287,13 @@ address {
 }
 .list-decoration {
     text-decoration: none;
+}
+
+.subject {
+    margin-top: var(--margin-top-buttom);
+    margin-bottom: var(--margin-top-buttom);
+}
+
+.decoration {
+    padding-top: 88px;
 }
