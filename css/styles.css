@@ -62,9 +62,14 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 text-decoration: none;
+margin-right: 93px;
 }
 .logotype {
     color:var(--title-text-color);
+}
+.contact.list {
+    display: flex;
+    margin-left: auto;
 }
 
 .contact .contact-link{
@@ -80,6 +85,7 @@ text-decoration: none;
     color: var(--accent-color);
 }
 
+
 /* -------------- Site nav --------------  */
 .site-nav .link {
     color: var(--header-color);
@@ -88,6 +94,8 @@ text-decoration: none;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    
+    
 }
 
 .site-nav .link:hover, 
@@ -96,6 +104,27 @@ text-decoration: none;
 }
 .site-nav .link.current {
     color: var(--accent-color);
+}
+.nav-list:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.mail {
+    margin-right: 50px;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+}
+.header-nav {
+    display: flex; 
+    align-items: center;   
 }
 
 /* -------------- Hero -------------- */
@@ -130,9 +159,10 @@ text-decoration: none;
     display: inline-block;
     padding: 10px 32px;
     min-width: 200px;
+    height: 50px;
+    margin-top: 33px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    margin-top: 33px;
 }
 /* -------------- Section -------------- */
 .section .section-title {
@@ -180,6 +210,15 @@ text-decoration: none;
     text-transform: uppercase;
 
 }
+
+.title-list:not(:last-child) {
+margin-right: 30px;
+}
+
+.feature-list{
+    display: flex;
+}
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -197,7 +236,14 @@ text-decoration: none;
 
 /* -------------- Team -------------- */
 .our-photos {
+    display: flex;
     margin-top: 50px;
+}
+.photo-to-occupy {
+    display: flex;
+}
+.occopy-photo:not(:last-child){
+    margin-right: 30px;
 }
 
 .name {
@@ -217,10 +263,12 @@ text-decoration: none;
     letter-spacing: 0.03em;
     margin-top: 10px;
 }
+.about-us:not(:last-child){
+    margin-right: 30px;
+}
+
 .section.team {
     background-color: #F5F4FA;
-
-
     padding-top: 186px;
     padding-bottom: var(--padding-backdown);
 }
@@ -281,7 +329,21 @@ address {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    padding: 6px 22px;
+    border: 0px solid;
+    border-radius: 4px;
+
 }
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.every-btn:not(:last-child){
+    margin-right: 8px;
+}
+
 .subject-button:hover,
 .subject-button:focus {
     color: var(--background-white-color);
@@ -300,6 +362,7 @@ address {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    margin-top: 4px;
 }
 .list-decoration {
     text-decoration: none;
@@ -318,6 +381,12 @@ address {
 .project-name {
     padding-bottom: 20px;
     background-color: var(--background-white-color);
-    width: 372px;
+    width: 370px;
     border: 1px solid #EEEEEE;
 }
+.list.decoration {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
