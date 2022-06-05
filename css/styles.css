@@ -249,12 +249,12 @@ margin-right: 30px;
     margin: -1px;
 }
 
-/* -------------- Occupation -------------- */
+
 
 /* -------------- Team -------------- */
 .our-photos {
     display: flex;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 .photo-to-occupy {
     display: flex;
@@ -270,6 +270,7 @@ margin-right: 30px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+    padding-top: 30px;
 }
 
 .profession {
