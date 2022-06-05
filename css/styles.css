@@ -6,7 +6,7 @@
     --background-white-color: #FFFFFF;
     --backgroubd-color: #2F303A;
     --portfolio-background-buttom: #F5F4FA;
-    --margin-top-buttom: 94px;
+    --padding-backdown: 94px;
 }
 * {
     box-sizing: border-box;
@@ -34,8 +34,10 @@ body {
 
 .container {
     width: 1200px;
+    margin: auto ;
     padding-left: 15px;
     padding-right: 15px;
+    outline: 1px solid red;
 }
 
 .list {
@@ -47,6 +49,8 @@ header {
     border-width: 1px;
     border-style: solid;
     border-color: #ECECEC;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .logo {
@@ -146,18 +150,18 @@ text-decoration: none;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
+    margin-top: 10px;
     width: 270px;
 }
 
 .section.benefits {
-    padding-top: 94px;
+    padding-top: var(--padding-backdown);
 }
 
 .section.work {
     text-align: center;
-    margin-top: var(--margin-top-buttom);
-    padding-bottom: var(--margin-top-buttom);
+    padding-top: var(--padding-backdown);
+    padding-bottom: var(--padding-backdown);
 }
 
 .photo-to-occupy {
@@ -201,8 +205,8 @@ text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .profession {
@@ -210,17 +214,29 @@ text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 10px;
 }
 .section.team {
     background-color: #F5F4FA;
 
-    text-align: center;
+
     padding-top: 186px;
-    padding-bottom: var(--margin-top-buttom);
+    padding-bottom: var(--padding-backdown);
 }
 .text-link {
+    text-decoration: none;
+    margin: 0px;
+}
+.about-us {
+    background-color: var(--background-white-color);
+    padding-bottom: 30px;
+    max-width: 272px;
+    text-align: center;
+    border: 1px solid #EEEEEE;
+
+}
+.we {
     text-decoration: none;
 }
 
@@ -245,15 +261,15 @@ address {
     text-decoration: none;
 }
 .contacts:hover,
-.contacts:focus{
+.contacts:focus {
     color: var(--accent-color);
 }
 
-.icon {
-    text-align: left;
+.futer-icon {
+    background-color: var(--backgroubd-color);
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 215px;
+
 }
 
 /* -------------- PORTFOLIO -------------- */
@@ -287,13 +303,21 @@ address {
 }
 .list-decoration {
     text-decoration: none;
+    margin: 0px;
 }
 
 .subject {
-    margin-top: var(--margin-top-buttom);
-    margin-bottom: var(--margin-top-buttom);
+    padding-top: var(--padding-backdown);
+    padding-bottom: var(--padding-backdown);
 }
 
 .decoration {
-    padding-top: 88px;
+    padding-top: 34px;
+}
+
+.project-name {
+    padding-bottom: 20px;
+    background-color: var(--background-white-color);
+    width: 372px;
+    border: 1px solid #EEEEEE;
 }
