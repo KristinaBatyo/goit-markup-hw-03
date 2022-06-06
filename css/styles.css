@@ -53,8 +53,6 @@ header {
     border-width: 1px;
     border-style: solid;
     border-color: #ECECEC;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .logo {
@@ -66,6 +64,9 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 text-decoration: none;
+}
+
+.header .logo {
 margin-right: 93px;
 padding-top: 25px;
 padding-bottom: 25px;
@@ -287,7 +288,7 @@ margin-right: 30px;
 
 .section.team {
     background-color: #F5F4FA;
-    padding-top: 186px;
+    padding-top: 94px;
     padding-bottom: var(--padding-backdown);
 }
 .text-link {
@@ -332,12 +333,20 @@ address {
     color: var(--accent-color);
 }
 
+
+
 .futer-icon {
     background-color: var(--backgroubd-color);
     padding-top: 60px;
     padding-bottom: 60px;
 
 }
+
+
+.adress-futer {
+    margin-top: 20px;
+}
+
 
 /* -------------- PORTFOLIO -------------- */
 .subject-button {
@@ -398,7 +407,6 @@ address {
 }
 
 .project-name {
-    padding-bottom: 20px;
     background-color: var(--background-white-color);
     width: 370px;
     border: 1px solid #EEEEEE;
@@ -407,5 +415,9 @@ address {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+.project-title {
+    padding: 20px 24px;
 }
 
