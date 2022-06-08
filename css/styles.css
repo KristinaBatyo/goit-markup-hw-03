@@ -327,13 +327,17 @@ address {
 .contacts {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    margin-bottom: 9px;
 }
+
 .contacts:hover,
 .contacts:focus {
     color: var(--accent-color);
 }
 
-
+.contacts-futer {
+    margin-top: 9px;
+}
 
 .futer-icon {
     background-color: var(--backgroubd-color);
@@ -403,7 +407,7 @@ address {
 }
 
 .decoration {
-    padding-top: 34px;
+    margin-top: 50px;
 }
 
 .project-name {
